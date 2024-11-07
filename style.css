@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    background-color: mediumslateblue;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-color: #fff;
+    color:rgb(96, 81, 184);
+    /* height: 60vh;
+    width: 60vh; */
+    border-radius: 8px;
+    text-align: center;
+    padding: 2rem;
+}
+
+label{
+    display: block;
+    text-align: left;
+    color: rgb(96, 81, 184);
+    font-size: 1.3rem;
+}
+
+input,select,button,#resultado{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(96, 81, 184);
+    outline: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+button{
+    background: transparent;
+    width: 60%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(96, 81, 184);
+    color: #fff;
+}
+
+
+
+
+
+
